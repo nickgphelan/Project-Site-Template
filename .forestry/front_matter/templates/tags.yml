@@ -1,0 +1,67 @@
+---
+pages:
+- _tags/tag-troubleshooting.html
+- _tags/tag-single-sourcing.html
+- _tags/tag-publishing.html
+- _tags/tag-navigation.html
+- _tags/tag-getting-started.html
+- _tags/tag-formatting.html
+- _tags/tag-content_types.html
+- _tags/tag-collaboration.html
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: tag_name
+  label: Tag name
+  type: text
+  hidden: false
+  default: ''
+- name: tag_display
+  label: Tag display
+  type: text
+  hidden: false
+  default: ''
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: default
+- name: topnav
+  label: Topnav
+  type: text
+  hidden: false
+  default: topnav
+- name: sidebar
+  label: Sidebar
+  type: text
+  hidden: false
+  default: taglist
+- name: toc
+  label: Toc
+  type: boolean
+  hidden: false
+  default: false
+- name: github_button
+  label: Github button
+  type: boolean
+  hidden: false
+  default: false
+- name: search
+  label: Search
+  type: boolean
+  hidden: false
+  default: false

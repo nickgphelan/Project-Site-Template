@@ -1,0 +1,53 @@
+---
+pages:
+- search.html
+- search-themeinstructions.html
+- search-generic.html
+- 404.html
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: default
+- name: toc
+  label: Toc
+  type: boolean
+  hidden: false
+  default: ''
+- name: github_button
+  label: Github button
+  type: boolean
+  hidden: false
+  default: ''
+- name: sidebar
+  label: Sidebar
+  type: text
+  hidden: false
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: search
+  label: Search
+  type: boolean
+  hidden: false
+  default: ''
+- name: topnav
+  label: Topnav
+  type: text
+  hidden: false
+  default: topnav
+- name: tag_group
+  label: Tag group
+  type: text
+  hidden: false
+  default: taglist

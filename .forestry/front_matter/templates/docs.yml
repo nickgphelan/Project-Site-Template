@@ -1,0 +1,68 @@
+---
+pages:
+- _docs/jekyll theme docs/translation.md
+- _docs/jekyll theme docs/tags.md
+- _docs/jekyll theme docs/simple-navigation.md
+- _docs/jekyll theme docs/robust-navigation.md
+- _docs/jekyll theme docs/building_a_Jekyll_theme.md
+- _docs/index.md
+- _docs/generic/thing3.md
+- _docs/generic/thing2.md
+- _docs/generic/thing1.md
+- _docs/generic/subsublevel3.md
+- _docs/generic/subsublevel2.md
+- _docs/generic/subsublevel1.md
+- _docs/generic/sublevel3.md
+- _docs/generic/sublevel2.md
+- _docs/generic/sublevel1.md
+- _docs/generic/sample3.md
+- _docs/generic/sample2.md
+- _docs/generic/sample1.md
+- _docs/generic/glossary.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: sidebar
+  label: Sidebar
+  type: text
+  hidden: false
+  default: ''
+- name: product
+  label: Product
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: ''
+- name: topnav
+  label: Topnav
+  type: text
+  hidden: false
+  default: topnav
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: default
+- name: tag_group
+  label: Tag group
+  type: text
+  hidden: false
+  default: taglist
